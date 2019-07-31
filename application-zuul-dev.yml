@@ -11,6 +11,7 @@ zuul:
     plat:
       path: /plat/**  #平台服务的请求路径
       serviceId: plat-service  #指向plat-service名称
-      path: /product/**  #平台服务的请求路径
-      serviceId: product-service  #指向plat-service名称
+    plat:
+      path: /product/**
+      serviceId: product-service
   prefix: /services  #请求前缀
